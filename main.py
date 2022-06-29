@@ -14,7 +14,7 @@ app.add_middleware(
 
 @app.get("/")
 def root():
-    return "Welcome to DSMATICS!"
+    return "Welcome!"
 
 @app.post("/icd10")
 def get_code(payload: Description):
